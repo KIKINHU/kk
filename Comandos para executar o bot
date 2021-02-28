@@ -1,0 +1,18 @@
+"ATENÇÃO" PARA O BOT FUNCIONAR VCS TEM QUE EXTRAIR AH PASTA DO BOT EM DOWNLOADS, SE VOCÊ NAO EXTRAIR EM DOWNLOADS O BOT NN VAI FUNCIONAR TLGD, E O PREFIXO PARA CHAMAR O BOT EH "!help" ESPERO QUE GOSTEM DO BOT E TMJ AHHH E O ANTILINK NN ESTA FUNCIONANDO NN QUERO COMENTÁRIOS AH SLA OQ O ANTILINK E FAKE AH SLA MAS OQQ JA TO AVISANDO LOGO E ISSO...
+
+
+
+
+termux-setup-storage
+
+pkg install git -y && pkg install nodejs -y && pkg install libwebp -y && pkg install ffmpeg -y && pkg install pm2 -y
+
+cp  -r /sdcard/Download/bruxinhoxx-main /data/data/com.termux/files/home
+
+ls
+
+cd bruxinhoxx-main
+
+bash install.sh
+
+npm start
